@@ -1,0 +1,117 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-color: #8fdbf2;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar-brand{ 
+  font-family: Impact;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.navbar{
+  padding-top: 0rem;
+  padding-left: 0rem;
+  padding:4.5rem;
+}
+.nav-item{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.download-button{
+  margin: 3%;
+}
+.title-image{
+  width: 200px;
+  transform: rotate(90deg);
+}
+.row{
+  padding: 100px;
+}
+#features{
+  text-align: center;
+  background-color: antiquewhite;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: -1;
+  position: absolute;
+}
+.icon{
+  color: rgb(138, 87, 87);
+}
+.icon:hover{
+  color: coral;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color:darkkhaki;
+
+}
+#testimonials h2{
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+#press{
+  background-color: darksalmon;
+  align-items: center;
+}
+.pi{
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+  align-items: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  align-items: center;
+}
+.card-title{
+  color: #000;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  }
+#cta{
+  background-color: cyan;
+  color: rgb(35, 180, 66);
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5 ;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <title>Nikko Inocencio Portfolio</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/mystyles.css">
+    </head>
+    <body>
+      <header>
+          <h1>NIKKO INOCENCIO</h1>
+          <ul class="nav_links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="myself">
+        <section id="about">
+          <img src="images/nikko.png" alt="Picture of Me!" class="icon icon-card">
+          
+            <h1>
+              ABOUT MYSELF
+            </h1>
+          <p>
+            I am a third year at the Univerty of California San Diego, studying Public Health with a concentration in Medicine Sciences. My goal in life is to become a physician assistant specializing in dermatology. Outside of school, I enjoy playing video games, going to the gym, and selfcare. 
+          <br>
+            <a href="RESUME FOR COGS.pdf">Click Here For My Resume</a>
+          </p>
+        </section>
+      </div>
+
+      <section class="skills" id="skills">
+        <h1 class="skill-header">MY SKILLS</h1>
+        <div class="skills-wrapper">
+          <div class="first-set">
+            <img
+              src="images/skills1.png"
+              class="icon icon-card"
+            />
+            <img
+              src="images/skills2.png"
+              class="icon icon-card"
+            />
+            <img
+              src="images/skills3.png"
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set">
+            <img
+              src="images/skills4.png"
+              class="icon icon-card"
+            />
+            <img
+              src="images/skills5.png"
+              class="icon icon-card"
+            />
+            <img
+              src="images/skills6.png"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1>
+          MY PROJECTS
+        </h1>
+      <div class="row">
+        <div class="column" style="background-color:rgb(99, 97, 105);">
+          <a href="dice.html" target="_blank">
+          <h1>DICE GAMBLING</h1>
+          <p>This state of the art website was created with the help of some of the greatest minds to walk this planet. Its utility is unmatched and its computational powers rivals that of supercomptuers.</p>
+         </a>
+        </div>
+        <div class="column" style=" background-color: rgb(161, 161, 161);">
+          <a href="https://www.figma.com/file/uk3lrOoBt6V5olcXBu94FP/COGS-LAB?node-id=0%3A1&t=PnNN8WUd9qXdTJO3-1" target="_blank">
+          <h1>FIGMA APP</h1>
+          <p>This app is ahead of its time and is only in the developmental stages. Upon completion, it will provide users the ability to connect and share pictures of their fluffy friends whenever and wherever. </p>
+          </a>
+        </div>
+        <div class="column" style="background-color:rgb(99, 97, 105);">
+          <a href="InocencioLab4.xlsx" target="_blank">
+            <h1>EXCEL</h1>
+            <p>This spread sheet is a part of my 6 month intership at Microsoft. I was tasked with organizing various pieces of data and ultimately played a pivotal role in generating the company over 1.5 billion U.S. Dollars. </p>
+            </a>
+        </div>
+      </div>
+    </section>
+
+      <section class="contact" id="contact">
+        <h1>CONTACT ME</h1>
+        <div class="contact-form-container">
+          <div class="contact-form">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>
